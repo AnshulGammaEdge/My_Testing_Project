@@ -9,7 +9,7 @@ def generate_email():
 
 def test_get_api(api_context):
     response = api_context.get("/public/v2/users")
-    print("hello")
+    print("hello world")
 
     assert response.status == 200
     print(response.json()[0]["id"])
