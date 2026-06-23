@@ -1,3 +1,0 @@
-2026-06-22 15:46:56,451 | INFO |  url is opening now
-2026-06-22 15:46:56,507 | INFO | Password for reset process has filled
-2026-06-22 15:46:59,848 | INFO | assertion successful, password reset process has completed
