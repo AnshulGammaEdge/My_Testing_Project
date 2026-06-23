@@ -1,0 +1,18 @@
+{
+
+    "url": "https://www.saucedemo.com/",
+    "url2" : "https://testautomationpractice.blogspot.com/p/playwrightpractice.html",
+    "url3" : "https://practice.expandtesting.com/forgot-password",
+    "reset_pass" : "abcxyz@gamil.com",
+    "user" : "standard_user",
+    "pass" : "secret_sauce",
+    "role_user" : "abc",
+    "booking_url" : "https://automationintesting.online/#booking",
+    "api_url": "https://rahulshettyacademy.com/client",
+    "api_user":"anshul.sahu@gammaedge.io",
+    "api_pass":"8109Ansh@",
+    "login_data": {"api_user":"anshul.sahu@gammaedge.io",
+                     "api_pass":"8109Ansh@"}
+                     
+
+}
