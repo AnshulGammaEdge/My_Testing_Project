@@ -1,7 +1,5 @@
-2026-06-23 15:29:15 | INFO |  url is opening now
-2026-06-23 15:29:15 | INFO | Password for reset process has filled
-2026-06-23 15:29:19 | INFO | assertion successful, password reset process has completed
-ase._sync.<locals>.<lambda>() at C:\Users\LAP-01\Desktop\Test_Folder\myenv\Lib\site-packages\playwright\_impl\_sync_base.py:111>
+2026-06-23 19:07:33 | ERROR | Exception in callback SyncBase._sync.<locals>.<lambda>() at C:\Users\LAP-01\Desktop\Test_Folder\myenv\Lib\site-packages\playwright\_impl\_sync_base.py:111
+handle: <Handle SyncBase._sync.<locals>.<lambda>() at C:\Users\LAP-01\Desktop\Test_Folder\myenv\Lib\site-packages\playwright\_impl\_sync_base.py:111>
 Traceback (most recent call last):
   File "C:\Program Files\Python314\Lib\asyncio\events.py", line 94, in _run
     self._context.run(self._callback, *self._args)

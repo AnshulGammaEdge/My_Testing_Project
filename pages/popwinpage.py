@@ -13,9 +13,9 @@ class popwin:
         with self.page.expect_popup() as obj:
             self.page.locator(self.popupwin_open).click()
             nw=obj.value
-            self.page.pause()
+            # self.page.pause()
             nw.locator(self.span).click()
-            nw.pause()
+            #nw.pause()
             nw.get_by_text(self.about, exact=True).click()
             target=nw.locator(self.new_win).filter(has_text=self.sel)
             target.click()
