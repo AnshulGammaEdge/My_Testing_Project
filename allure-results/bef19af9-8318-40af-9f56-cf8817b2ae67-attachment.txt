@@ -1,0 +1,3 @@
+2026-06-23 10:56:51 | [32mINFO[0m |  url is opening now
+2026-06-23 10:56:51 | [32mINFO[0m | Password for reset process has filled
+2026-06-23 10:56:55 | [32mINFO[0m | assertion successful, password reset process has completed

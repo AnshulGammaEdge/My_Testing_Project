@@ -1,0 +1,2 @@
+Created User: {'id': 8516771, 'name': 'Rahul', 'email': 'johnwick1782197460028@gmail.com', 'gender': 'male', 'status': 'active'}
+User Deleted Successfully
