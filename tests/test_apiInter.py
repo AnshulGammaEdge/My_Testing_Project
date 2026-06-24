@@ -15,14 +15,14 @@ def mock_users(route):
     )
 
 
-def test_api_mock():
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        page = browser.new_page()
+def test_api_mock(playwright):
+    
+    browser = playwright.chromium.launch(headless=True)
+    page = browser.new_page()
 
-        page.route("https://gorest.co.in/public/v2/users", mock_users)
+    page.route("https://gorest.co.in/public/v2/users", mock_users)
 
-        page.set_content("""
+    page.set_content("""
         <button id="login-btn">Login</button>
 
         <script>
@@ -34,8 +34,8 @@ def test_api_mock():
         </script>
         """)
 
-        page.click("#login-btn")
+    page.click("#login-btn")
 
-        page.wait_for_timeout(3000)
+    page.wait_for_timeout(3000)
 
-        browser.close()
+    browser.close()

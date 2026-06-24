@@ -2,10 +2,7 @@ from playwright.sync_api import sync_playwright
 import pytest
 
 def test_brosite(playwright):
-    browser = playwright.chromium.launch(
-        executable_path=r"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe",
-        headless=True
-    )
+    browser = playwright.chromium.launch(headless=True)
 
     page = browser.new_page()
     page.goto("https://2captcha.com/demo/recaptcha-v2")
