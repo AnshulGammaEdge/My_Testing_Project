@@ -43,7 +43,7 @@ def api_context(playwright, config):
 @pytest.fixture
 def page(playwright:sync_playwright):
     
-    browser = playwright.chromium.launch(headless=False)
+    browser = playwright.chromium.launch(headless=True)
     page = browser.new_page()
 
     yield page
