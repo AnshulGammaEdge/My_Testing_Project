@@ -4,7 +4,7 @@ import pytest
 def test_brosite(playwright):
     browser = playwright.chromium.launch(
         executable_path=r"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe",
-        headless=False
+        headless=True
     )
 
     page = browser.new_page()

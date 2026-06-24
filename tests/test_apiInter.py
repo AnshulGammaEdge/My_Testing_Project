@@ -17,7 +17,7 @@ def mock_users(route):
 
 def test_api_mock():
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False)
+        browser = p.chromium.launch(headless=True)
         page = browser.new_page()
 
         page.route("https://gorest.co.in/public/v2/users", mock_users)
