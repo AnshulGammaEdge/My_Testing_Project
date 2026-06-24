@@ -3,7 +3,7 @@ class popwin:
     def __init__(self,page):
         self.page=page
         self.popupwin_open="#PopUp"
-        self.span='button[class="navbar-toggler"]'
+        self.span="span.navbar-toggler-icon"
         self.about="About"
         self.new_win="a.dropdown-item"
         self.sel="About Selenium"
