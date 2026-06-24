@@ -43,7 +43,11 @@ def api_context(playwright, config):
 @pytest.fixture
 def page(playwright:sync_playwright):
     
-    browser = playwright.chromium.launch(headless=True)
+    
+
+    headless_mode = os.getenv("CI") == "true"
+
+    browser = playwright.chromium.launch(headless=headless_mode)
     page = browser.new_page()
 
     yield page
