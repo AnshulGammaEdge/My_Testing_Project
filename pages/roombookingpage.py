@@ -26,7 +26,7 @@ class roombooking:
         self.page.wait_for_timeout(5000)
     
     def room_book_process(self):
-        self.page.get_by_role("link", name="Book now").nth(2).click()
+        self.page.get_by_role("link", name="Book now").nth(1).click()
         self.page.wait_for_timeout(3000)
         self.page.locator("#doReservation").click()
         self.page.wait_for_timeout(3000)
