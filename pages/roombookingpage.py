@@ -11,7 +11,7 @@ class roombooking:
         date_input.click()
         date_input.press("Control+A")
         date_input.press("Backspace")
-        date_input.type("25/06/2026")
+        date_input.type("25/07/2026")
         date_input.press("Enter")
 
         #check out date
@@ -19,7 +19,7 @@ class roombooking:
         date_input.click()
         date_input.press("Control+A")
         date_input.press("Backspace")
-        date_input.type("28/06/2026")
+        date_input.type("28/07/2026")
         date_input.press("Enter")
 
         self.page.get_by_role("button", name="Check Availability").click()

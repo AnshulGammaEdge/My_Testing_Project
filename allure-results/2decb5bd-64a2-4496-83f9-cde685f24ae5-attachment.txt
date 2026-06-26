@@ -1,0 +1,2 @@
+Created User: {'id': 8520586, 'name': 'Rahul', 'email': 'johnwick1782391361303@gmail.com', 'gender': 'male', 'status': 'active'}
+Updated User: {'id': 8520586, 'name': 'Rahul Updated', 'email': 'johnwick1782391361303@gmail.com', 'gender': 'male', 'status': 'active'}
